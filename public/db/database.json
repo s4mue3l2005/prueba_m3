@@ -1,0 +1,26 @@
+{
+  "roles": [
+    { "id": 1, "name": "admin" },
+    { "id": 2, "name": "user" }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@eventos.com",
+      "password": "admin123",
+      "role": "admin"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Concierto de Rock",
+      "description": "Un gran concierto para los amantes del rock.",
+      "date": "2025-08-01",
+      "location": "Auditorio Nacional",
+      "capacity": 100,
+      "attendees": []
+    }
+  ]
+}
